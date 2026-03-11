@@ -5,12 +5,12 @@
   "inbounds": [
     {
       "listen": "0.0.0.0",
-      "port": XRAY_PORT,
+      "port": CORE_PORT,
       "protocol": "vless",
       "settings": {
         "clients": [
           {
-            "id": "XRAY_UUID",
+            "id": "CORE_UUID",
             "flow": "xtls-rprx-vision"
           }
         ],
@@ -27,9 +27,9 @@
             "www.microsoft.com",
             "microsoft.com"
           ],
-          "privateKey": "XRAY_PRIVATE_KEY",
+          "privateKey": "CORE_PRIVATE_KEY",
           "shortIds": [
-            "XRAY_SHORT_ID"
+            "CORE_SHORT_ID"
           ]
         }
       },
